@@ -5,29 +5,29 @@ import com.koc.hrms.core.utilities.results.DataResult;
 import com.koc.hrms.core.utilities.results.Result;
 import com.koc.hrms.entities.concretes.SocialMedia;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/socialMedias")
+@RequestMapping(value = "/api/socialMedias")
 public class SocialMediaController {
 
     private SocialMediaService socialMediaService;
 
-    @Autowired
     public SocialMediaController(SocialMediaService socialMediaService) {
         this.socialMediaService = socialMediaService;
     }
 
-    @GetMapping("/getAll")
+    @GetMapping(value = "/getAll")
     public DataResult<List<SocialMedia>> getAll(){
         return socialMediaService.getAll();
     }
 
-    @PostMapping("/add")
-    public Result add(@RequestBody SocialMedia socialMedia){
-        return socialMediaService.add(socialMedia);
+    @PostMapping(value = "/add")
+    public ResponseEntity<?> add(@RequestBody SocialMedia socialMedia){
+        return ResponseEntity.ok(this.socialMediaService.add(socialMedia));
     }
 
 }

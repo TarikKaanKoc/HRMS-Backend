@@ -6,29 +6,29 @@ import com.koc.hrms.core.utilities.results.Result;
 import com.koc.hrms.entities.concretes.Employee;
 import com.koc.hrms.entities.concretes.Employer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/employers")
+@RequestMapping(value = "/api/employers")
 public class EmployerController {
 
     private EmployerService employerService;
 
-    @Autowired
     public EmployerController(EmployerService employerService) {
         this.employerService = employerService;
     }
 
-    @GetMapping("/getAll")
+    @GetMapping(value = "/getAll")
     public DataResult<List<Employer>> getAll(){
         return employerService.getAll();
     }
 
-    @PostMapping("/add")
-    public Result add(@RequestBody Employer employer){
-        return employerService.add(employer);
+    @PostMapping(value = "/add")
+    public ResponseEntity<?> add(@RequestBody Employer employer){
+        return ResponseEntity.ok(this.employerService.add(employer));
     }
 
 }
