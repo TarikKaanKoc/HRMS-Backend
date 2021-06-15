@@ -7,7 +7,7 @@
 <h3 align="left">Language and Tools:</h3>
 <p align="left"> <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a>
 <a href="https://www.postgresql.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" width="40"height="40"/> 
-<a href="https://cloudinary.com/" target="_blank"> <img src="https://seeklogo.com/images/C/cloudinary-logo-91D46BA298-seeklogo.com.png" width="40"height="40"/> 
+<a href="https://cloudinary.com/" target="_blank"> <img src="https://seeklogo.com/images/C/cloudinary-logo-91D46BA298-seeklogo.com.svg" width="40"height="40"/> 
 <a href="https://projectlombok.org/" target="_blank"> <img src="https://avatars.githubusercontent.com/u/45949248?s=200&v=4" alt="projectlombok" width="40" height="40"/> 
 <a href="https://hibernate.org/" target="_blank"> <img src="https://cdn.freebiesupply.com/logos/large/2x/hibernate-logo-png-transparent.png" width="40" height="40"/> 
 <a href="https://swagger.io/" target="_blank"> <img src="https://seeklogo.com/images/S/swagger-logo-A49F73BAF4-seeklogo.com.png" width="40" height="40"/> 
