@@ -15,6 +15,7 @@
 </p>
 <br>
 
+<br>
 
 ### Kabul Kriterleri:
 - İş ilanı formunda;
