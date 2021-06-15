@@ -19,14 +19,10 @@
 ### <a href="Database.sql">Click</a> for script codes.
 * * *
 ### ER Diagram with PostgreSQL
-<p align="center"><img src="İmage/ss.png"></p>
+<p align="center"><img src="İmage/hrms.png"></p>
 
 
-<br>
 
-## *Database image*
-
-<img src="https://user-images.githubusercontent.com/58303745/121084809-27486100-c7f2-11eb-9ac8-be978d6cd10a.png" width="80%" />
 
 ## *Backend - Swagger'da Görüntüsü*    
 
