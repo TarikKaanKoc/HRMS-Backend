@@ -1,9 +1,9 @@
-  # Human Resource Management System - Backend
+  # `Human Resource Management System - Backend`
 <p align="center"><img src="İmage/HRMS.gif">
 
 ---
 
-<h3 align="left">Language and Tools:</h3>
+  ## *`Language and tool`* 
 <p align="left"> <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a>
 <a href="https://www.postgresql.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" width="40"height="40"/> 
 <a href="https://cloudinary.com/" target="_blank"> <img src="https://seeklogo.com/images/C/cloudinary-logo-91D46BA298-seeklogo.com.png" width="40"height="40"/> 
@@ -14,7 +14,7 @@
 </a>
 </p>
   
-  ## *BACKEND REQUESTS* 
+  ## *`Backend Requests`* 
 
 ## *🛠️ Req 1 : Job Seekers must be able to register in the system.*
 
@@ -116,8 +116,6 @@
 * * *
 ### ER Diagram with PostgreSQL
 <p align="center"><img src="İmage/hrms.png"></p>
-
-
 
 
 ## *Backend - Swagger xxx*    
