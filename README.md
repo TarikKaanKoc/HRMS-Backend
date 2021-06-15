@@ -129,7 +129,7 @@
 `📌` These schools should be able to enter the years they studied in the system.
 `📌` If she does not graduate, the graduation year can be blank.
 <br>
-`📌` Candidates should be able to sort the schools in reverse order according to their graduation year. ( for example : If not graduated, this school should be displayed at the top and as "in progress".)
+`📌` Job seekers should be able to sort the schools in reverse order according to their graduation year. ( for example : If not graduated, this school should be displayed at the top and as "in progress".)
 <br>
 `📌` Job seekers should be able to enter their work experience. (Business name, position) 
 <br>
