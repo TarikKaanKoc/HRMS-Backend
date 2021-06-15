@@ -23,9 +23,9 @@
 
 
 
-## *Backend - Swagger'da Görüntüsü*    
+## *Backend - Swagger xxx*    
 
-<img src="https://user-images.githubusercontent.com/58303745/121781935-2760ac00-cbb8-11eb-9281-43f32ebe62c9.png" width="80%" />
+<img src="xxxxxxxxx" width="80%" />
 
 
 ---
