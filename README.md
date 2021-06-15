@@ -125,17 +125,28 @@
 ## *`🛠️ Req 12 :` Job seekers should be able to enter their CV into the system.*
 
 `📌` Job seekers should be able to add their schools to the system. (School name, department)
+<br>
 `📌` These schools should be able to enter the years they studied in the system.
 `📌` If she does not graduate, the graduation year can be blank.
+<br>
 `📌` Candidates should be able to sort the schools in reverse order according to their graduation year. ( for example : If not graduated, this school should be displayed at the top and as "in progress".)
+<br>
 `📌` Job seekers should be able to enter their work experience. (Business name, position) 
+<br>
 `📌` Job seekers hey should be able to enter into the system in which years they have done this experience. 
+<br>
 `📌` If she is still working, the year of leaving should be blank.
+<br>
 `📌` Job seekers' experience should be in reverse order by year. ( for example:  If it's still running, this experience should still be displayed at the top and "in progress".)
+<br>
 `📌` Job seekeres should be able to enter the foreign languages they know into the system. ( Language, Level -> 1-5)
+<br>
 `📌` Job seekers should be able to enter photos into the system. The photo of the candidate will be kept in the https://cloudinary.com/pricing system. (External service integration) Use the free account.
+<br>
 `📌` Job seekers should be able to enter github and linkedin addresses into the system.
+<br>
 `📌` Job seekeres should be able to enter the programming languages or technologies they know into the system. (Programming/Technology name) (For example; Js, React, html, css)
+<br>
 `📌` Job seekers should be able to add a cover letter to the system. (For example: I like working very much....)
 
 ---
