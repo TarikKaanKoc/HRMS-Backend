@@ -17,9 +17,9 @@
 <br>
 
 
-## *BACKEND İSTERLERİ* 
+## *BACKEND REQUESTS* 
 
-## *🔴: Madde 1 : İş Arayanlar sisteme kayıt olabilmelidir.*
+## *🛠️: Req 1 : İş Arayanlar sisteme kayıt olabilmelidir.*
 
 ### Kabul Kriterleri:
 
