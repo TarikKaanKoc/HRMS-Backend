@@ -1,5 +1,5 @@
   # Human Resource Management System - Backend
-<img src="İmage/HRMS.gif">
+<p align="center"><img src="İmage/HRMS.gif">
 
 ---
 
