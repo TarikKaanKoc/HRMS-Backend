@@ -1,6 +1,6 @@
   # Human Resource Management System - Backend
 
-   <imag src align="center" ="İmage/HRMS.gif" width="80%" />
+   < align="center" imag src="İmage/HRMS.gif" width="80%" />
 
 ---
 
