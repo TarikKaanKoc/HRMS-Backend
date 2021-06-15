@@ -1,7 +1,4 @@
-# Human Resource Management System Project
-
-# HRMS
-## *Human Resources Management System - Backend*
+# Human Resource Management System - Backend
 
 <img src="https://user-images.githubusercontent.com/58303745/121785903-9c8aac00-cbcd-11eb-9b7c-91dfc9874bc0.png" width="80%" />
 
