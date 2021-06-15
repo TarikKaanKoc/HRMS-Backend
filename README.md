@@ -16,106 +16,100 @@
   
   ## *BACKEND REQUESTS* 
 
-## *🛠️: Req 1: Job Seekers must be able to register in the system.*
+## *🛠️ Req 1 : Job Seekers must be able to register in the system.*
 
-:sweat_drops:	Kayıt sırasında kullanıcıdan ad, soyad, tcno, doğum yılı, e-Posta, şifre, şifre tekrarı bilgileri istenir.
+📌	During registration, the user is asked for name, surname, Identity number, year of birth, e-mail, password, password repeat information.
 <br>
-:sweat_drops:	Tüm alanlar zorunludur. Kullanıcı bilgilendirilir.
+📌	All fields are required. (The user is informed.)
 <br>
-:sweat_drops:	Mernis doğrulaması yapılarak sisteme kayıt gerçekleştirilir.
+📌	Mernis verification is done and the system is registered. ( Simulation ) 
 <br>
-:sweat_drops:	Doğrulama geçerli değilse kullanıcı bilgilendirilir.
+📌	If validation fails, the user is notified.
 <br>
-:sweat_drops:	Daha önce kayıtlı bir e-posta veya tcno var ise kayıt gerçekleşmez. Kullanıcı bilgilendirilir.
+📌	If there is a previously registered e-mail or Identity number, the registration will not take place. (The user is informed.)
 <br>
-:sweat_drops:	Kayıdın gerçekleşmesi için e-posta doğrulaması gerekir.
+📌	Email verification is required for registration to take place.
 
 ---
 
-## *🔴: Madde 2 : İş verenler sisteme kayıt olabilmelidir.*
+## *🛠️ Req 2 : Employers must be able to register in the system.*
 
-### Kabul Kriterleri:
-
-:sweat_drops: Kayıt sırasında kullanıcıdan şirket adı, web sitesi, web sitesi ile aynı domaine sahip e-posta, telefon, şifre, şifre tekrarı bilgileri istenir. Burada amaç sisteme şirket olmayanların katılmasını engellemektir.
+📌 During registration, the user is asked for company name, website, e-mail address with the same domain as the website, phone number, new account password, password repetition information. The purpose here is to prevent non-companies from joining the system.
 <br>
-:sweat_drops: Tüm alanlar zorunludur. Kullanıcı bilgilendirilir.
+📌 All fields are required. (The user is informed.)
 <br>
-:sweat_drops: Şirket kayıtları iki şekilde doğrulanır. Kayıdın gerçekleşmesi için e-posta doğrulaması gerekir. HRMS personelinin (bizim :)) onayı gerekmektedir.
+📌 Company records are verified in two ways. 1.) Email verification is required for registration to take place. 2.) Approval from HRMS staff (our approval :)) is required.
 <br>
-:sweat_drops:Daha önce kayıtlı bir e-posta var ise kayıt gerçekleşmez. Kullanıcı bilgilendirilir.
+📌 If there is a previously registered e-mail, the registration will not take place. (The user is informed.)
 
 ---
 
-## *🔴 Madde 3 : Sisteme genel iş pozisyonu isimleri eklenebilmelidir. Örneğin Software Developer, Software Architect.*
+## *🛠️ Req 3 : General job position names should be added to the system. (For example: Software Developer, Software Architect.)*
 
-### Kabul Kriterleri:
-:sweat_drops:Bu pozisyonlar tekrar edemez. Kullanıcı uyarılır.
 
----
-
-## *🔴 Madde 4 : İş verenler listelenebilmelidir. (Sadece tüm liste)*
+📌 These positions cannot be repeated. (The user is warned.)
 
 ---
 
-## *🔴 Madde 5 : İş arayanlar listelenebilmelidir. (Sadece tüm liste)*
+## *🛠️ Req 4 : Employers should be able to be listed. (Whole list only)*
 
 ---
 
-## *🔴 Madde 6 : İş pozisyonları listelenebilmelidir. (Sadece tüm liste)*
+## *🛠️ Req 5 : Job seeker should be able to be listed. (Whole list only)*
 
 ---
 
-## *🔴 Madde 7 : İş verenler sisteme iş ilanı ekleyebilmelidir.*
+## *🛠️ Req 6 : Job positions should be able to be listed. (Whole list only)*
 
-### Kabul Kriterleri:
-- İş ilanı formunda;
+---
+
+## *🛠️ Req 7 : Employers should be able to add job postings to the system.*
+
+ # 📄 In the job posting form;
  
-:sweat_drops:Seçilebilir listeden (dropdown) genel iş pozisyonu seçilebilmelidir.(Örneğin Java Developer)(Zorunlu) 
+📌 General job position can be selected from the dropdown list. (For example: Java Developer) (Required)
 <br>
-:sweat_drops:İş tanımı girişi yapılabilmelidir. (Örneğin; firmamız için JAVA, C# vb. dillere hakim....)(Zorunlu)
+📌 Job description entry should be possible. (For example; For our company, he is proficient in languages such as JAVA, C #, etc....) (Required)
 <br>
-:sweat_drops:Şehir bilgisi açılır listeden seçilebilmelidir. (Zorunlu)
+📌 City information should be able to be selected from the drop-down list. (Compulsory)
 <br>
-:sweat_drops:Maaş skalası için min-max girişi yapılabilmelidir. (Opsiyonel)
+📌 It should be possible to enter min-max for the salary scale. (Optional)
 <br>
-:sweat_drops:Açık pozisyon adedi girişi yapılabilmelidir. (Zorunlu)
+📌 The number of open positions must be entered. (Compulsory)
 <br>
-:sweat_drops:Son başvuru tarihi girişi yapılabilmelidir.
+📌 Finish the application deadline must be entered.
 
 ---
 
-## *🔴 Madde 8 : Sistemdeki tüm aktif iş ilanları listelenebilmelidir.*
+## *🛠️ Req 8 : All active job postings in the system should be listed..*
 
-### Kabul Kriterleri:
-:sweat_drops:Liste, tablo formunda gelmelidir.
+📌 The list should come in tabular form.
 <br>
-:sweat_drops:Listede firmadı, genel iş pozisyonu adı, açık pozisyon adedi, yayın tarihi, son başvuru tarihi bilgileri olmalıdır.
+📌 Company name, general job position name, number of open positions, publication date, nish the application deadline must be entered
 
 ---
 
-## *🔴 Madde 9 : Sistemdeki tüm aktif iş ilanları tarihe göre listelenebilmelidir.*
+## *🛠️ Req 9 : All active job postings of a company should be listed in the system by date.*
 
-### Kabul Kriterleri:
-:sweat_drops:Liste, tablo formunda gelmelidir.
+📌 The list should come in tabular form.
 <br>
-:sweat_drops:Listede firmadı, genel iş pozisyonu adı, açık pozisyon adedi, yayın tarihi, son başvuru tarihi bilgileri olmalıdır.
+📌 Company name, general job position name, number of open positions, publication date, nish the application deadline must be entered
 
 ---
 
-## *🔴 Madde 10 : Sistemde bir firmaya ait tüm aktif iş ilanları listelenebilmelidir.*
+## *🛠️ Req 10 : All active job postings of a company should be listed in the system.*
 
-### Kabul Kriterleri:
-:sweat_drops:Liste, tablo formunda gelmelidir.
+📌 The list should come in tabular form.
 <br>
-:sweat_drops:Listede firmadı, genel iş pozisyonu adı, açık pozisyon adedi, yayın tarihi, son başvuru tarihi bilgileri olmalıdır.
+📌 Company name, general job position name, number of open positions, publication date, nish the application deadline must be entered
 
 ---
 
-## *🔴 Madde 11 : İş verenler sistemdeki bir ilanı kapatabilmelidir. (Pasif ilan)*
+## *🛠️ Req 11 : Employers should be able to close a posting in the system. (Passive posting)*
 
 ---
 
-## *🔴 Madde 12: Adaylar sisteme CV girişi yapabilmelidir.*
+## *🛠️ Req 12 : Job seekers should be able to enter their CV into the system.*
   
 ### PostgreSQL - Database
 ### <a href="Database.sql">Click</a> for script codes.
