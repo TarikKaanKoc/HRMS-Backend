@@ -1,2 +1,1 @@
-# HRMS-Project
-Human Resource Management System
+# Human Resource Management System Project
