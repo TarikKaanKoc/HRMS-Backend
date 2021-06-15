@@ -14,6 +14,111 @@
 </a>
 </p>
   
+  ## *BACKEND İSTERLERİ* 
+
+## *🔴: Madde 1 : İş Arayanlar sisteme kayıt olabilmelidir.*
+
+### Kabul Kriterleri:
+
+:sweat_drops:	Kayıt sırasında kullanıcıdan ad, soyad, tcno, doğum yılı, e-Posta, şifre, şifre tekrarı bilgileri istenir.
+<br>
+:sweat_drops:	Tüm alanlar zorunludur. Kullanıcı bilgilendirilir.
+<br>
+:sweat_drops:	Mernis doğrulaması yapılarak sisteme kayıt gerçekleştirilir.
+<br>
+:sweat_drops:	Doğrulama geçerli değilse kullanıcı bilgilendirilir.
+<br>
+:sweat_drops:	Daha önce kayıtlı bir e-posta veya tcno var ise kayıt gerçekleşmez. Kullanıcı bilgilendirilir.
+<br>
+:sweat_drops:	Kayıdın gerçekleşmesi için e-posta doğrulaması gerekir.
+
+---
+
+## *🔴: Madde 2 : İş verenler sisteme kayıt olabilmelidir.*
+
+### Kabul Kriterleri:
+
+:sweat_drops: Kayıt sırasında kullanıcıdan şirket adı, web sitesi, web sitesi ile aynı domaine sahip e-posta, telefon, şifre, şifre tekrarı bilgileri istenir. Burada amaç sisteme şirket olmayanların katılmasını engellemektir.
+<br>
+:sweat_drops: Tüm alanlar zorunludur. Kullanıcı bilgilendirilir.
+<br>
+:sweat_drops: Şirket kayıtları iki şekilde doğrulanır. Kayıdın gerçekleşmesi için e-posta doğrulaması gerekir. HRMS personelinin (bizim :)) onayı gerekmektedir.
+<br>
+:sweat_drops:Daha önce kayıtlı bir e-posta var ise kayıt gerçekleşmez. Kullanıcı bilgilendirilir.
+
+---
+
+## *🔴 Madde 3 : Sisteme genel iş pozisyonu isimleri eklenebilmelidir. Örneğin Software Developer, Software Architect.*
+
+### Kabul Kriterleri:
+:sweat_drops:Bu pozisyonlar tekrar edemez. Kullanıcı uyarılır.
+
+---
+
+## *🔴 Madde 4 : İş verenler listelenebilmelidir. (Sadece tüm liste)*
+
+---
+
+## *🔴 Madde 5 : İş arayanlar listelenebilmelidir. (Sadece tüm liste)*
+
+---
+
+## *🔴 Madde 6 : İş pozisyonları listelenebilmelidir. (Sadece tüm liste)*
+
+---
+
+## *🔴 Madde 7 : İş verenler sisteme iş ilanı ekleyebilmelidir.*
+
+### Kabul Kriterleri:
+- İş ilanı formunda;
+ 
+:sweat_drops:Seçilebilir listeden (dropdown) genel iş pozisyonu seçilebilmelidir.(Örneğin Java Developer)(Zorunlu) 
+<br>
+:sweat_drops:İş tanımı girişi yapılabilmelidir. (Örneğin; firmamız için JAVA, C# vb. dillere hakim....)(Zorunlu)
+<br>
+:sweat_drops:Şehir bilgisi açılır listeden seçilebilmelidir. (Zorunlu)
+<br>
+:sweat_drops:Maaş skalası için min-max girişi yapılabilmelidir. (Opsiyonel)
+<br>
+:sweat_drops:Açık pozisyon adedi girişi yapılabilmelidir. (Zorunlu)
+<br>
+:sweat_drops:Son başvuru tarihi girişi yapılabilmelidir.
+
+---
+
+## *🔴 Madde 8 : Sistemdeki tüm aktif iş ilanları listelenebilmelidir.*
+
+### Kabul Kriterleri:
+:sweat_drops:Liste, tablo formunda gelmelidir.
+<br>
+:sweat_drops:Listede firmadı, genel iş pozisyonu adı, açık pozisyon adedi, yayın tarihi, son başvuru tarihi bilgileri olmalıdır.
+
+---
+
+## *🔴 Madde 9 : Sistemdeki tüm aktif iş ilanları tarihe göre listelenebilmelidir.*
+
+### Kabul Kriterleri:
+:sweat_drops:Liste, tablo formunda gelmelidir.
+<br>
+:sweat_drops:Listede firmadı, genel iş pozisyonu adı, açık pozisyon adedi, yayın tarihi, son başvuru tarihi bilgileri olmalıdır.
+
+---
+
+## *🔴 Madde 10 : Sistemde bir firmaya ait tüm aktif iş ilanları listelenebilmelidir.*
+
+### Kabul Kriterleri:
+:sweat_drops:Liste, tablo formunda gelmelidir.
+<br>
+:sweat_drops:Listede firmadı, genel iş pozisyonu adı, açık pozisyon adedi, yayın tarihi, son başvuru tarihi bilgileri olmalıdır.
+
+---
+
+## *🔴 Madde 11 : İş verenler sistemdeki bir ilanı kapatabilmelidir. (Pasif ilan)*
+
+---
+
+## *🔴 Madde 12: Adaylar sisteme CV girişi yapabilmelidir.*
+  
 ### PostgreSQL - Database
 ### <a href="Database.sql">Click</a> for script codes.
 * * *
