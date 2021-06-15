@@ -1,6 +1,6 @@
 # Human Resource Management System - Backend
 
-<img src="İmage/HUMAN RESOURCES.jpg" width="80%" />
+<img align="center" src="İmage/HUMAN RESOURCES.jpg" width="80%" />
 
 ---
 
