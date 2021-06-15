@@ -78,7 +78,7 @@
 
 ## *`🛠️ Req 7 :` Employers should be able to add job postings to the system.*
 
- # `📄` In the job posting form;
+ ### `📄` In the job posting form;
  
 `📌` General job position can be selected from the dropdown list. (For example: Java Developer) (Required)
 <br>
