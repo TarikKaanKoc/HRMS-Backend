@@ -1,9 +1,9 @@
-  # `Human Resource Management System - Backend`
+  # Human Resource Management System - Backend
 <p align="center"><img src="İmage/HRMS.gif">
 
 ---
 
-  ## *`Language and tool`* 
+  ## `Language and tools` 
 <p align="left"> <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a>
 <a href="https://www.postgresql.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" width="40"height="40"/> 
 <a href="https://cloudinary.com/" target="_blank"> <img src="https://seeklogo.com/images/C/cloudinary-logo-91D46BA298-seeklogo.com.png" width="40"height="40"/> 
@@ -14,102 +14,103 @@
 </a>
 </p>
   
-  ## *`Backend Requests`* 
+  
+  ## `Backend Requests`
 
-## *🛠️ Req 1 : Job Seekers must be able to register in the system.*
+## *`🛠️ Req 1 :`  Job Seekers must be able to register in the system.*
 
-📌	During registration, the user is asked for name, surname, Identity number, year of birth, e-mail, password, password repeat information.
+`📌`	During registration, the user is asked for name, surname, Identity number, year of birth, e-mail, password, password repeat information.
 <br>
-📌	All fields are required. (The user is informed.)
+`📌`	All fields are required. (The user is informed.)
 <br>
-📌	Mernis verification is done and the system is registered. ( Simulation ) 
+`📌`	Mernis verification is done and the system is registered. ( Simulation ) 
 <br>
-📌	If validation fails, the user is notified.
+`📌`	If validation fails, the user is notified.
 <br>
-📌	If there is a previously registered e-mail or Identity number, the registration will not take place. (The user is informed.)
+`📌`	If there is a previously registered e-mail or Identity number, the registration will not take place. (The user is informed.)
 <br>
-📌	Email verification is required for registration to take place.
+`📌`	Email verification is required for registration to take place.
 
 ---
 
-## *🛠️ Req 2 : Employers must be able to register in the system.*
+## *`🛠️ Req 2 :`  Employers must be able to register in the system.*
 
-📌 During registration, the user is asked for company name, website, e-mail address with the same domain as the website, phone number, new account password, password repetition information. The purpose here is to prevent non-companies from joining the system.
+`📌` During registration, the user is asked for company name, website, e-mail address with the same domain as the website, phone number, new account password, password repetition information. The purpose here is to prevent non-companies from joining the system.
 <br>
-📌 All fields are required. (The user is informed.)
+`📌` All fields are required. (The user is informed.)
 <br>
-📌 Company records are verified in two ways. 1.) Email verification is required for registration to take place. 2.) Approval from HRMS staff (our approval :)) is required.
+`📌` Company records are verified in two ways. 1.) Email verification is required for registration to take place. 2.) Approval from HRMS staff (our approval :)) is required.
 <br>
-📌 If there is a previously registered e-mail, the registration will not take place. (The user is informed.)
+`📌` If there is a previously registered e-mail, the registration will not take place. (The user is informed.)
 
 ---
 
-## *🛠️ Req 3 : General job position names should be added to the system. (For example: Software Developer, Software Architect.)*
+## *`🛠️ Req 3 :` General job position names should be added to the system. (For example: Software Developer, Software Architect.)*
 
 
-📌 These positions cannot be repeated. (The user is warned.)
-
----
-
-## *🛠️ Req 4 : Employers should be able to be listed. (Whole list only)*
+`📌` These positions cannot be repeated. (The user is warned.)
 
 ---
 
-## *🛠️ Req 5 : Job seeker should be able to be listed. (Whole list only)*
+## *`🛠️ Req 4 :` Employers should be able to be listed. (Whole list only)*
 
 ---
 
-## *🛠️ Req 6 : Job positions should be able to be listed. (Whole list only)*
+## *`🛠️ Req 5 :` Job seeker should be able to be listed. (Whole list only)*
 
 ---
 
-## *🛠️ Req 7 : Employers should be able to add job postings to the system.*
+## *`🛠️ Req 6 :` Job positions should be able to be listed. (Whole list only)*
 
- # 📄 In the job posting form;
+---
+
+## *`🛠️ Req 7 :` Employers should be able to add job postings to the system.*
+
+ # `📄` In the job posting form;
  
-📌 General job position can be selected from the dropdown list. (For example: Java Developer) (Required)
+`📌` General job position can be selected from the dropdown list. (For example: Java Developer) (Required)
 <br>
-📌 Job description entry should be possible. (For example; For our company, he is proficient in languages such as JAVA, C #, etc....) (Required)
+`📌` Job description entry should be possible. (For example; For our company, he is proficient in languages such as JAVA, C #, etc....) (Required)
 <br>
-📌 City information should be able to be selected from the drop-down list. (Compulsory)
+`📌` City information should be able to be selected from the drop-down list. (Compulsory)
 <br>
-📌 It should be possible to enter min-max for the salary scale. (Optional)
+`📌` It should be possible to enter min-max for the salary scale. (Optional)
 <br>
-📌 The number of open positions must be entered. (Compulsory)
+`📌` The number of open positions must be entered. (Compulsory)
 <br>
-📌 Finish the application deadline must be entered.
+`📌` Finish the application deadline must be entered.
 
 ---
 
-## *🛠️ Req 8 : All active job postings in the system should be listed..*
+## *`🛠️ Req 8 :` All active job postings in the system should be listed..*
 
-📌 The list should come in tabular form.
+`📌` The list should come in tabular form.
 <br>
-📌 Company name, general job position name, number of open positions, publication date, nish the application deadline must be entered
+`📌` Company name, general job position name, number of open positions, publication date, nish the application deadline must be entered
 
 ---
 
-## *🛠️ Req 9 : All active job postings of a company should be listed in the system by date.*
+## *`🛠️ Req 9 :` All active job postings of a company should be listed in the system by date.*
 
-📌 The list should come in tabular form.
+`📌` The list should come in tabular form.
 <br>
-📌 Company name, general job position name, number of open positions, publication date, nish the application deadline must be entered
+`📌` Company name, general job position name, number of open positions, publication date, nish the application deadline must be entered
 
 ---
 
-## *🛠️ Req 10 : All active job postings of a company should be listed in the system.*
+## *`🛠️ Req 10 :` All active job postings of a company should be listed in the system.*
 
-📌 The list should come in tabular form.
+`📌` The list should come in tabular form.
 <br>
-📌 Company name, general job position name, number of open positions, publication date, nish the application deadline must be entered
+`📌` Company name, general job position name, number of open positions, publication date, nish the application deadline must be entered
 
 ---
 
-## *🛠️ Req 11 : Employers should be able to close a posting in the system. (Passive posting)*
+## *`🛠️ Req 11 :` Employers should be able to close a posting in the system. (Passive posting)*
 
 ---
 
-## *🛠️ Req 12 : Job seekers should be able to enter their CV into the system.*
+## *`🛠️ Req 12 :` Job seekers should be able to enter their CV into the system.*
   
 ### PostgreSQL - Database
 ### <a href="Database.sql">Click</a> for script codes.
