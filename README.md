@@ -2,7 +2,18 @@
 <p align="center"><img src="İmage/HRMS.gif">
 
 ---
+## `File Structure` 
 
+### `🏗️` Layered Architecture
+  
+* [Entities](https://github.com/TarikKaanKoc/HRMS-Backend/tree/master/src/main/java/com/koc/hrms/entities/concretes) - The package in which the assets are kept
+* [DataAcces](https://github.com/TarikKaanKoc/HRMS-Backend/tree/master/src/main/java/com/koc/hrms/dataaccess/abstracts) - Package containing database related operations
+* [Business](https://github.com/TarikKaanKoc/HRMS-Backend/tree/master/src/main/java/com/koc/hrms/business) - Package with business rules
+* [Core](https://github.com/TarikKaanKoc/HRMS-Backend/tree/master/src/main/java/com/koc/hrms/core/utilities) - Common layer of the project
+* [API](https://github.com/TarikKaanKoc/HRMS-Backend/tree/master/src/main/java/com/koc/hrms/api/controllers) - The package that connects with the user
+
+---
+  
   ## `Language and tools` 
 <p align="left"> <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a>
 <a href="https://www.postgresql.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" width="40"height="40"/> 
@@ -14,8 +25,9 @@
 </a>
 </p>
   
-  
-  ## `Backend Requests`
+---
+ 
+## `Backend Requests`
 
 ## *`🛠️ Req 1 :`  Job Seekers must be able to register in the system.*
 
@@ -82,7 +94,7 @@
 
 ---
 
-## *`🛠️ Req 8 :` All active job postings in the system should be listed..*
+## *`🛠️ Req 8 :` All active job postings in the system should be listed.*
 
 `📌` The list should come in tabular form.
 <br>
@@ -111,32 +123,46 @@
 ---
 
 ## *`🛠️ Req 12 :` Job seekers should be able to enter their CV into the system.*
-  
-### PostgreSQL - Database
+
+`📌` Job seekers should be able to add their schools to the system. (School name, department)
+`📌` These schools should be able to enter the years they studied in the system.
+`📌` If she does not graduate, the graduation year can be blank.
+`📌` Candidates should be able to sort the schools in reverse order according to their graduation year. ( for example : If not graduated, this school should be displayed at the top and as "in progress".)
+`📌` Job seekers should be able to enter their work experience. (Business name, position) 
+`📌` Job seekers hey should be able to enter into the system in which years they have done this experience. 
+`📌` If she is still working, the year of leaving should be blank.
+`📌` Job seekers' experience should be in reverse order by year. ( for example:  If it's still running, this experience should still be displayed at the top and "in progress".)
+`📌` Job seekeres should be able to enter the foreign languages they know into the system. ( Language, Level -> 1-5)
+`📌` Job seekers should be able to enter photos into the system. The photo of the candidate will be kept in the https://cloudinary.com/pricing system. (External service integration) Use the free account.
+`📌` Job seekers should be able to enter github and linkedin addresses into the system.
+`📌` Job seekeres should be able to enter the programming languages or technologies they know into the system. (Programming/Technology name) (For example; Js, React, html, css)
+`📌` Job seekers should be able to add a cover letter to the system. (For example: I like working very much....)
+
+---
+
+### `ER Diagram with PostgreSQL`
 ### <a href="Database.sql">Click</a> for script codes.
-* * *
-### ER Diagram with PostgreSQL
 <p align="center"><img src="İmage/hrms.png"></p>
+  
+---
 
+### `Screenshot from swagger`    
 
-## *Backend - Swagger xxx*    
-
-<img src="xxxxxxxxx" width="80%" />
-
+<p align="center"> <img src="İmage/swaggerSS.png" width="80%" />
 
 ---
 
-## Projemi Geliştirirken Faydalandığım linkler 
----
-- Genel olarak :[Baeldung](https://www.baeldung.com)
-- Validasyon işlemleri için : [Validation](https://www.baeldung.com/javax-validation)
-- Entitites Katmanında Db Bğlantısı ve ayarlar için [Jpa Entities](https://www.baeldung.com/jpa-entities)
-- List of Rules kuralları için : [List of Rules](https://www.baeldung.com/java-rule-engines)
-- Spring Data Jpa [Spring Data Jpa](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories)
-- MicroService [Microservice Mimarisi](https://gokhana.medium.com/microservice-mimarisi-nedir-microservice-mimarisine-giri%C5%9F-948e30cf65b1)
+### `Resources benefited from while developing this project`
+
+- [Baeldung](https://www.baeldung.com)
+- [Validation](https://www.baeldung.com/javax-validation)
+- [Jpa Entities](https://www.baeldung.com/jpa-entities)
+- [List of Rules](https://www.baeldung.com/java-rule-engines)
+- [Spring Data Jpa](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories)
+- [Microservice architecture](https://gokhana.medium.com/microservice-mimarisi-nedir-microservice-mimarisine-giri%C5%9F-948e30cf65b1)
 - Derived Query Methods in Spring Data JPA Repositories [Derived Query Methods](https://www.baeldung.com/spring-data-derived-queries)
 - @Request Param Annotation [Spring @RequestParam Annotation](https://www.baeldung.com/spring-request-param)
 - Spring Cache [Spring Cache](https://www.baeldung.com/spring-cache-tutorial)
-- Spring FrameWork Ekosistemi [Spring Ekosistemi](https://medium.com/huawei-developers-tr/2-spring-nedir-spring-boot-ve-spring-framework-neden-kullanılır-2cccb8f3a4fa)
+- Spring Framework ecosystem [Spring ecosystem](https://medium.com/huawei-developers-tr/2-spring-nedir-spring-boot-ve-spring-framework-neden-kullanılır-2cccb8f3a4fa)
 - Hibernate Mapping : [Hibernatte Inheritance Mapping](https://www.baeldung.com/hibernate-inheritance)
 - ModelMapper : [ModelMapper](https://www.baeldung.com/java-modelmapper-lists)
