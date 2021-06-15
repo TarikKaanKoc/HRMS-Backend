@@ -14,11 +14,9 @@
 </a>
 </p>
   
-  ## *BACKEND İSTERLERİ* 
+  ## *BACKEND REQUESTS* 
 
-## *🔴: Madde 1 : İş Arayanlar sisteme kayıt olabilmelidir.*
-
-### Kabul Kriterleri:
+## *🛠️: Req 1: Job Seekers must be able to register in the system.*
 
 :sweat_drops:	Kayıt sırasında kullanıcıdan ad, soyad, tcno, doğum yılı, e-Posta, şifre, şifre tekrarı bilgileri istenir.
 <br>
